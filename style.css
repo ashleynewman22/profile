@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Montserrat:wght@400;700");
+@import url("components/cards.css");
+
+
+h1 {
+  color: #6D6875;
+  font-size: 32px;
+  font-family: Arima, system-ui;
+  font-weight: bold;
+  line-height: 2;
+}
+
+h2 {
+  color: #B5838D;
+  font-size: 25px;
+  font-family: Radio Canada Big, sans-serif;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+h3 {
+  color: #6D6875;
+  font-size: 18px;
+  font-family: Radio Canada Big, sans-serif;
+  font-weight: 600;
+  line-height: 0.5;
+}
+
+@media (max-width: 1600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+  .img-circle {
+    width: 200px;
+  }
+  .img-circle-small {
+    width: 140px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .img-circle {
+    width: 150px;
+  }
+  .img-circle-small {
+    width: 90px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  /* border-radius: 50%;
+  box-shadow: 0 2px 1px rgba(0,0,0,.2); */
+  border-radius: 50%;
+  width: 200px;
+  /* height: 220px; */
+  /* 190 and 220 */
+}
+
+.img-circle-small {
+  border-radius: 50%;
+  /* box-shadow: 0px 10px 30px rgba(0,0,0,.1); */
+  box-shadow: 0px 15px 30px rgba(181, 101, 118,.3);
+  /* 0 10px 30px */
+  /* border: 7px solid #6D6875; */
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  background-color: #FCD5CE;
+  font-family: Montserrat, sans-serif;
+  color: #6D6875;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  font-family: M PLUS Rounded 1c, sans-serif;
+  line-height: 2;
+  font-size: 12px;
+}
+
+ul {
+  padding: 0px 0px 0px 0px;
+  letter-spacing: 8px;
+  font-size: 23px;
+  line-height: 1;
+}
+
+/* .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+} */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: #006D77;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card-white {
+  margin: 30px 0;
+  background-color: #F9DCC4;
+  padding: 15px 20px 15px 20px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(181, 101, 118,.3);
+  /* display: flex;
+  justify-content: center; */
+  /* border: 7px solid #004e98; */
+}
+
+/* .card-white.text-center:last-child {
+  justify-self: flex-end;
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #FCD5CE;
+}
+
+
+/* After spending a few years studying at Stellenbosch University, I started to think more about what my interests are and essentially turned my focused to doing things I have a passion for.
+Since I began to develop an interest in <strong>coding</strong> and been eager to develop more skills in this field, I decided to start learning at <strong>Le Wagon</strong> in order to pursure my interest for coding and take it a step further. */
